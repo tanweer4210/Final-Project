@@ -1,0 +1,195 @@
+/* Large Device Media Queries Start */
+@media (min-width: 992px) and (max-width: 1199.99px){
+    /* Topbar Section CSS Start */
+    #topBar {
+        font-size: 12px;
+    }
+    #topBar .topBar_mid {
+        padding: 11px 0;
+    }
+    #topBar .topBar_right ul li {
+        margin: 0px 8px;
+    }
+    /* Topbar Section CSS End */
+
+    /* Banner Section CSS Start */
+    #banner .banner_item_wrapper .banner_item .banner_content{
+        margin-left: 70px;
+    }
+    /* Banner Section CSS End */
+
+    /* About Section CSS Start */
+    #about .about_content ul#aboutTab li button {
+        padding: 18px 7px;
+    }
+    /* About Section CSS End */
+
+    /* Footer Section CSS Start */
+    footer .footer_item_wrapper .footer_desc ul li a {
+        margin-right: 7px;
+    }
+    /* Footer Section CSS End */
+}
+/* Large Device Media Queries End */
+
+/* Medium Device Media Queries Start */
+@media (min-width: 768px) and (max-width: 991.99px){
+     /* Topbar Section CSS Start */
+    #topBar {
+        font-size: 12px;
+    }
+    #topBar .topBar_right ul li {
+        margin: 0px 8px;
+    }
+    /* Topbar Section CSS End */ 
+    
+
+    /* Banner Section CSS Start */
+    #banner .banner_item_wrapper .banner_item .banner_content{
+        width: 590px;
+        margin: 0 auto;
+    }
+    /* Banner Section CSS End */
+
+    /* About Section CSS Start */
+    #about .about_img_box{
+        display: none;
+    }
+    /* About Section CSS End */
+
+    /* Blog Section CSS Start */
+    #blog .blog_slider .slider_arrow{
+        display: none !important;
+    }
+    /* Blog Section CSS End */
+
+    /* Company Logo Section Start */
+    #companyLogo .slider_arrow{
+        display: none !important;
+    }
+    /* Company Logo Section End */
+}
+/* Medium Device Media Queries End */
+
+/* Small Device Media Queries Start */
+@media (min-width: 576px) and (max-width: 767.99px){
+    /* Topbar Section CSS Start */
+    #topBar .topBar_left p{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #topBar .topBar_mid{
+        transform: skewX(0deg);
+    }
+    #topBar .topBar_mid p{
+        transform: skewX(0deg);
+    }
+    #topBar .topBar_right ul{
+        justify-content: center !important;
+        padding: 10px 0;
+    }
+    /* Topbar Section CSS End */
+    
+    /* Banner Section CSS Start */
+    #banner .banner_item_wrapper .banner_item{
+        height: 500px;
+    }
+    #banner .slider_arrow{
+        display: none !important;
+    }
+    /* Banner Section CSS End */
+
+    /* About Section CSS Start */
+    #about .about_img_box{
+        display: none;
+    }
+    #about .about_content ul#aboutTab li button {
+        padding: 18px 15px;
+    }
+    /* About Section CSS End */
+
+    /* Info Counter Section CSS Start */
+    #infoCounter{
+        height: 300px;
+    }
+    /* Info Counter Section CSS End */
+
+    /* Blog Section CSS Start */
+    #blog .blog_slider .slider_arrow{
+        display: none !important;
+    }
+    /* Blog Section CSS End */
+
+    /* Company Logo Section Start */
+    #companyLogo .slider_arrow{
+        display: none !important;
+    }
+    /* Company Logo Section End */ 
+}
+/* Small Device Media Queries End */
+
+/* Extra Small Device Media Queries Start */
+@media (max-width: 575.99px){
+    /* Topbar Section CSS Start */
+    #topBar .topBar_left p{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #topBar .topBar_mid{
+        transform: skewX(0deg);
+    }
+    #topBar .topBar_mid p{
+        transform: skewX(0deg);
+    }
+    #topBar .topBar_right ul{
+        justify-content: center !important;
+        padding: 10px 0;
+    }
+    /* Topbar Section CSS End */
+
+    /* Banner Section CSS Start */
+    #banner .banner_item_wrapper .banner_item{
+        height: 550px;
+    }
+    #banner .slider_arrow{
+        display: none !important;
+    }
+    #banner .banner_item_wrapper .banner_item .banner_content .bannner_sec_btn a {
+        padding: 18px 10px;
+    }
+    /* Banner Section CSS End */
+
+     /* Info Counter Section CSS Start */
+     #infoCounter{
+        height: 550px;
+    }
+    /* Info Counter Section CSS End */
+    /* About Section CSS Start */
+    #about .about_img_box{
+        display: none;
+    }
+    #about .about_content ul#aboutTab li button {
+        padding: 18px 0;
+    }
+    #about .about_content ul#aboutTab li button {
+        font-size: 12px;
+    }
+    /* About Section CSS End */
+
+    /* Blog Section CSS Start */
+    #blog .blog_slider .slider_arrow{
+        display: none !important;
+    }
+    /* Blog Section CSS End */
+
+    /* Company Logo Section CSS Start */
+    #companyLogo .slider_arrow{
+        display: none !important;
+    }
+    /* Company Logo Section CSS End */
+
+    #testimonial .slider_arrow{
+        display: none !important;
+    }
+}
+/* Extra Small Device Media Queries End */
